@@ -17,7 +17,7 @@ public class TaskScheduler {
         Scheduler scheduler = sf.getScheduler();
         // 3.创建JobDetail
         JobDetail jb = JobBuilder.newJob(MyJob.class)
-                .withDescription("test Job")
+                .withDescription("demo Job")
                 .withIdentity("testJob", "testGroup")
                 .build();
         // 任务启动的时间
