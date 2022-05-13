@@ -14,9 +14,9 @@ public interface DefaultAndStaticDemo {
      * 默认方法
      * @return
      */
-    default String sayHi() {
-        return "Hi default! 1";
-    }
+    //default String sayHi() {
+    //    return "Hi default! 1";
+    //}
 
     /**
      * 默认方法
